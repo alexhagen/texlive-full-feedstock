@@ -1,7 +1,7 @@
-{% set version = "20180414" %}
+{% set version = "20200313" %}
 
 package:
-  name: texlive-core
+  name: texlive-full
   version: {{ version }}
 
 source:
@@ -59,10 +59,8 @@ about:
   license: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-only AND LPPL-1.3c AND LPPL-1.0 AND Artistic-1.0 AND Apache-2.0 AND MIT AND BSD-3-Clause
   # See https://www.tug.org/texlive/LICENSE.TL
   license_file: LICENSE.TL
-  summary: 'An easy way to get up and running with the TeX document production system.'
+  summary: 'A full texlive install through conda.'
 
 extra:
   recipe-maintainers:
-    - jakirkham
-    - ocefpaf
-    - xhochy
+    - alexhagen
